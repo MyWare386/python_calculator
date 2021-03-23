@@ -62,6 +62,8 @@ Launch the "python_calculator.exe".
 | ⚠️ Python must be installed on your computer
 |---
 
+Choose a language : English or French.
+
 Write this line in the command prompt :
 
     > py \pathto\python_calculator.py
