@@ -49,6 +49,8 @@ You must install :
 
 - <h3>Executable</h3>
 
+Choose a language : English or French.
+
 Download and unzip the "python_calculator_exe.zip".
 
 Launch the "python_calculator.exe".
