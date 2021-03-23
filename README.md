@@ -63,7 +63,7 @@ Launch the "python_calculator.exe".
 
 Write this line in the command prompt :
 
-    py \pathto\python_calculator.py
+    > py \pathto\python_calculator.py
 
 OR
 
