@@ -53,17 +53,17 @@ questions = [
     {
         'type': 'input',
         'name': 'c',
-        'message': 'Quel est votre troisième nombre ? (mettez 0 ou 1 (pour les divisions) si vous n\'avez pas besoin de ce nombre)',
+        'message': 'Quel est votre troisième nombre ? (mettez 0 ou 1 si vous n\'avez pas besoin de ce nombre)',
     },
     {
         'type': 'input',
         'name': 'd',
-        'message': 'Quel est votre quatrième nombre ? (mettez 0 ou 1 (pour les divisions) si vous n\'avez pas besoin de ce nombre)',
+        'message': 'Quel est votre quatrième nombre ? (mettez 0 ou 1 si vous n\'avez pas besoin de ce nombre)',
     },
     {
         'type': 'input',
         'name': 'e',
-        'message': 'Quel est votre cinquième nombre ? (mettez 0 ou 1 (pour les divisions) si vous n\'avez pas besoin de ce nombre)',
+        'message': 'Quel est votre cinquième nombre ? (mettez 0 ou 1 si vous n\'avez pas besoin de ce nombre)',
     }
 ]
 
