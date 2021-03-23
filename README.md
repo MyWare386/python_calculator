@@ -32,8 +32,6 @@ News
 Note
 ---------------
 
-- The program is in French 🇫🇷
-
 <br>
 
 Installation
