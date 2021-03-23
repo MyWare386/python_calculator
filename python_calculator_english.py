@@ -26,7 +26,7 @@ style = style_from_dict({
 colorama.init()
 print(Fore.GREEN + Style.BRIGHT + "-> Python Calculator" + Style.RESET_ALL)
 print("")
-print(Fore.BLUE + Style.BRIGHT + "-> Créé " + Style.RESET_ALL + Style.BRIGHT + "par " + Style.RESET_ALL + Fore.RED + Style.BRIGHT + "MyWare" + Style.RESET_ALL)
+print(Fore.BLUE + Style.BRIGHT + "-> Made " + Style.RESET_ALL + Style.BRIGHT + "by " + Style.RESET_ALL + Fore.RED + Style.BRIGHT + "MyWare" + Style.RESET_ALL)
 print("")
 print("--------------------------------------------------")
 print("")
@@ -37,33 +37,33 @@ questions = [
     {
         'type': 'list',
         'name': 'calcul',
-        'message': 'Quel opération voulez-vous faire ?',
-        'choices': ['Une addition +', 'Une soustraction -', 'Une multiplication *', 'Une division /']
+        'message': 'What operation do you want to do ?',
+        'choices': ['Addition +', 'Subtraction -', 'Multiplication *', 'Division /']
     },
     {
         'type': 'input',
         'name': 'a',
-        'message': 'Quel est votre premier nombre ?',
+        'message': 'What\'s your first number ?',
     },
     {
         'type': 'input',
         'name': 'b',
-        'message': 'Quel est votre deuxième nombre ?',
+        'message': 'What\'s your second number ?',
     },
     {
         'type': 'input',
         'name': 'c',
-        'message': 'Quel est votre troisième nombre ? (mettez 0 ou 1 si vous n\'avez pas besoin de ce nombre)',
+        'message': 'What\'s your third number ? (put 0 or 1 if you don\'t need this number)',
     },
     {
         'type': 'input',
         'name': 'd',
-        'message': 'Quel est votre quatrième nombre ? (mettez 0 ou 1 si vous n\'avez pas besoin de ce nombre)',
+        'message': 'What\'s your fourth number ? ? (put 0 or 1 if you don\'t need this number)',
     },
     {
         'type': 'input',
         'name': 'e',
-        'message': 'Quel est votre cinquième nombre ? (mettez 0 ou 1 si vous n\'avez pas besoin de ce nombre)',
+        'message': 'What\'s your fifth number ? (put 0 or 1 if you don\'t need this number)',
     }
 ]
 
@@ -100,31 +100,31 @@ e = answers['e']
 decimal_e = Decimal(e)
 
 
-if calcul == 'Une addition +':
+if calcul == 'Addition +':
     print("")
     print("")
-    print(Fore.GREEN + Style.BRIGHT + "Résultat = " + Style.RESET_ALL)
+    print(Fore.GREEN + Style.BRIGHT + "Result = " + Style.RESET_ALL)
     print("")
     print(decimal_a + decimal_b + decimal_c + decimal_d + decimal_e)
 else:
-    if calcul == 'Une soustraction -':
+    if calcul == 'Subtraction -':
         print("")
         print("")
-        print(Fore.GREEN + Style.BRIGHT + "Résultat = " + Style.RESET_ALL)
+        print(Fore.GREEN + Style.BRIGHT + "Result = " + Style.RESET_ALL)
         print("")
         print(decimal_a - decimal_b - decimal_c - decimal_d - decimal_e)
     else:
-        if calcul == 'Une multiplication *':
+        if calcul == 'Multiplication *':
             print("")
             print("")
-            print(Fore.GREEN + Style.BRIGHT + "Résultat = " + Style.RESET_ALL)
+            print(Fore.GREEN + Style.BRIGHT + "Result = " + Style.RESET_ALL)
             print("")
             print(decimal_a * decimal_b * decimal_c * decimal_d * decimal_e)
         else:
-            if calcul == 'Une division /':
+            if calcul == 'Division /':
                 print("")
                 print("")
-                print(Fore.GREEN + Style.BRIGHT + "Résultat = " + Style.RESET_ALL)
+                print(Fore.GREEN + Style.BRIGHT + "Result = " + Style.RESET_ALL)
                 print("")
                 print(decimal_a / decimal_b / decimal_c / decimal_d / decimal_e)
 
@@ -134,4 +134,4 @@ else:
 print("")
 print("--------------------------------------------------")
 print("")
-input(Fore.RED + "Appuyez sur ENTRÉE pour terminer le programme." + Style.RESET_ALL)
+input(Fore.RED + "ENTER to quit" + Style.RESET_ALL)
