@@ -8,22 +8,22 @@ A simple calculator on CMD made with Python by me
 Contents
 ----------------
 
-- <a href="https://github.com/MyWare386/pizza_python#contents">Contents</a>
-- <a href="https://github.com/MyWare386/pizza_python#news">News</a>
-- <a href="https://github.com/MyWare386/pizza_python#note">News</a>
-- <a href="https://github.com/MyWare386/pizza_python#installation">Installation</a>
-  - <a href="https://github.com/MyWare386/pizza_python#librairies">Librairies</a>
-  - <a href="https://github.com/MyWare386/pizza_python#executable">Executable</a>
-  - <a href="https://github.com/MyWare386/pizza_python#python">Python</a>
-  - <a href="https://github.com/MyWare386/pizza_python#other">Other</a>
-- <a href="https://github.com/MyWare386/pizza_python#credits">Credits</a>
+- <a href="https://github.com/MyWare386/pizza_calculator#contents">Contents</a>
+- <a href="https://github.com/MyWare386/pizza_calculator#news">News</a>
+- <a href="https://github.com/MyWare386/pizza_calculator#note">News</a>
+- <a href="https://github.com/MyWare386/pizza_calculator#installation">Installation</a>
+  - <a href="https://github.com/MyWare386/pizza_calculator#librairies">Librairies</a>
+  - <a href="https://github.com/MyWare386/pizza_calculator#executable">Executable</a>
+  - <a href="https://github.com/MyWare386/pizza_calculator#python">Python</a>
+  - <a href="https://github.com/MyWare386/pizza_calculator#other">Other</a>
+- <a href="https://github.com/MyWare386/pizza_calculator#credits">Credits</a>
 
 <br>
 
 News
 ----------------
 
-- 22/03/2021 : _English is coming soon_
+- 22/03/2021 : _English Version is coming soon_
 - 22/03/2021 : _You can buy your pizza with Pizza Python !_
 
 <br>
@@ -50,9 +50,9 @@ You must install :
 
 - <h3>Executable</h3>
 
-Download and unzip the "python_pizza_exe.zip".
+Download and unzip the "python_calculator_exe.zip".
 
-Launch the "python_pizza.exe".
+Launch the "python_calculator.exe".
 
 <br>
 
@@ -63,11 +63,11 @@ Launch the "python_pizza.exe".
 
 Write this line in the command prompt :
 
-    py \pathto\python_pizza.py
+    py \pathto\python_calculator.py
 
 OR
 
-Just launch the "python_pizza.py".
+Just launch the "python_calculator.py".
 
 <br>
 
@@ -83,5 +83,3 @@ Credits
 --------------------------------
 
 Project made by <a href="https://myware386.github.io/myware-website/">MyWare</a>.
-
-Inspired by a tutorial.
