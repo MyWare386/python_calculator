@@ -10,7 +10,7 @@ Contents
 
 - <a href="https://github.com/MyWare386/python_calculator#contents">Contents</a>
 - <a href="https://github.com/MyWare386/python_calculator#news">News</a>
-- <a href="https://github.com/MyWare386/python_calculator#note">News</a>
+- <a href="https://github.com/MyWare386/python_calculator#note">Note</a>
 - <a href="https://github.com/MyWare386/python_calculator#installation">Installation</a>
   - <a href="https://github.com/MyWare386/python_calculator#librairies">Librairies</a>
   - <a href="https://github.com/MyWare386/python_calculator#executable">Executable</a>
