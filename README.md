@@ -8,15 +8,15 @@ A simple calculator on CMD made with Python by me
 Contents
 ----------------
 
-- <a href="https://github.com/MyWare386/pizza_calculator#contents">Contents</a>
-- <a href="https://github.com/MyWare386/pizza_calculator#news">News</a>
-- <a href="https://github.com/MyWare386/pizza_calculator#note">News</a>
-- <a href="https://github.com/MyWare386/pizza_calculator#installation">Installation</a>
-  - <a href="https://github.com/MyWare386/pizza_calculator#librairies">Librairies</a>
-  - <a href="https://github.com/MyWare386/pizza_calculator#executable">Executable</a>
-  - <a href="https://github.com/MyWare386/pizza_calculator#python">Python</a>
-  - <a href="https://github.com/MyWare386/pizza_calculator#other">Other</a>
-- <a href="https://github.com/MyWare386/pizza_calculator#credits">Credits</a>
+- <a href="https://github.com/MyWare386/python_calculator#contents">Contents</a>
+- <a href="https://github.com/MyWare386/python_calculator#news">News</a>
+- <a href="https://github.com/MyWare386/python_calculator#note">News</a>
+- <a href="https://github.com/MyWare386/python_calculator#installation">Installation</a>
+  - <a href="https://github.com/MyWare386/python_calculator#librairies">Librairies</a>
+  - <a href="https://github.com/MyWare386/python_calculator#executable">Executable</a>
+  - <a href="https://github.com/MyWare386/python_calculator#python">Python</a>
+  - <a href="https://github.com/MyWare386/python_calculator#other">Other</a>
+- <a href="https://github.com/MyWare386/python_calculator#credits">Credits</a>
 
 <br>
 
