@@ -13,6 +13,8 @@ from colorama import Style
 
 from decimal import *
 
+import math
+
 
 style = style_from_dict({
     Token.QuestionMark: '#33CC00 bold',
@@ -38,7 +40,7 @@ questions = [
         'type': 'list',
         'name': 'calcul',
         'message': 'What operation do you want to do ?',
-        'choices': ['Addition +', 'Subtraction -', 'Multiplication *', 'Division /']
+        'choices': ['Addition +', 'Subtraction -', 'Multiplication *', 'Division /', 'Square root √ (the programme will use your first number)']
     },
     {
         'type': 'input',
@@ -49,21 +51,6 @@ questions = [
         'type': 'input',
         'name': 'b',
         'message': 'What\'s your second number ?',
-    },
-    {
-        'type': 'input',
-        'name': 'c',
-        'message': 'What\'s your third number ? (put 0 or 1 if you don\'t need this number)',
-    },
-    {
-        'type': 'input',
-        'name': 'd',
-        'message': 'What\'s your fourth number ? ? (put 0 or 1 if you don\'t need this number)',
-    },
-    {
-        'type': 'input',
-        'name': 'e',
-        'message': 'What\'s your fifth number ? (put 0 or 1 if you don\'t need this number)',
     }
 ]
 
@@ -85,48 +72,40 @@ b = answers['b']
 decimal_b = Decimal(b)
 
 
-c = answers['c']
-
-decimal_c = Decimal(c)
-
-
-d = answers['d']
-
-decimal_d = Decimal(d)
-
-
-e = answers['e']
-
-decimal_e = Decimal(e)
-
-
 if calcul == 'Addition +':
     print("")
     print("")
     print(Fore.GREEN + Style.BRIGHT + "Result = " + Style.RESET_ALL)
     print("")
-    print(decimal_a + decimal_b + decimal_c + decimal_d + decimal_e)
+    print(decimal_a + decimal_b)
 else:
     if calcul == 'Subtraction -':
         print("")
         print("")
         print(Fore.GREEN + Style.BRIGHT + "Result = " + Style.RESET_ALL)
         print("")
-        print(decimal_a - decimal_b - decimal_c - decimal_d - decimal_e)
+        print(decimal_a - decimal_b)
     else:
         if calcul == 'Multiplication *':
             print("")
             print("")
             print(Fore.GREEN + Style.BRIGHT + "Result = " + Style.RESET_ALL)
             print("")
-            print(decimal_a * decimal_b * decimal_c * decimal_d * decimal_e)
+            print(decimal_a * decimal_b)
         else:
             if calcul == 'Division /':
                 print("")
                 print("")
                 print(Fore.GREEN + Style.BRIGHT + "Result = " + Style.RESET_ALL)
                 print("")
-                print(decimal_a / decimal_b / decimal_c / decimal_d / decimal_e)
+                print(decimal_a / decimal_b)
+            else:
+                if calcul == 'Square root √ (the programme will use your first number)':
+                    print("")
+                    print("")
+                    print(Fore.GREEN + Style.BRIGHT + "Result = " + Style.RESET_ALL)
+                    print("")
+                    print(math.sqrt(decimal_a))
 
 
 # ------------------------------------------------------- Fin -------------------------------------------------------
