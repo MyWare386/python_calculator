@@ -13,6 +13,8 @@ from colorama import Style
 
 from decimal import *
 
+import math
+
 
 style = style_from_dict({
     Token.QuestionMark: '#33CC00 bold',
@@ -30,7 +32,6 @@ print(Fore.BLUE + Style.BRIGHT + "-> Créé " + Style.RESET_ALL + Style.BRIGHT +
 print("")
 print("--------------------------------------------------")
 print("")
-
 # ------------------------------------------------------- Questions -------------------------------------------------------
 
 questions = [
@@ -38,7 +39,7 @@ questions = [
         'type': 'list',
         'name': 'calcul',
         'message': 'Quel opération voulez-vous faire ?',
-        'choices': ['Une addition +', 'Une soustraction -', 'Une multiplication *', 'Une division /']
+        'choices': ['Une addition +', 'Une soustraction -', 'Une multiplication *', 'Une division /', 'Une racine carré √ (seul le premier nombre entré sera pris en compte)']
     },
     {
         'type': 'input',
@@ -49,21 +50,6 @@ questions = [
         'type': 'input',
         'name': 'b',
         'message': 'Quel est votre deuxième nombre ?',
-    },
-    {
-        'type': 'input',
-        'name': 'c',
-        'message': 'Quel est votre troisième nombre ? (mettez 0 ou 1 si vous n\'avez pas besoin de ce nombre)',
-    },
-    {
-        'type': 'input',
-        'name': 'd',
-        'message': 'Quel est votre quatrième nombre ? (mettez 0 ou 1 si vous n\'avez pas besoin de ce nombre)',
-    },
-    {
-        'type': 'input',
-        'name': 'e',
-        'message': 'Quel est votre cinquième nombre ? (mettez 0 ou 1 si vous n\'avez pas besoin de ce nombre)',
     }
 ]
 
@@ -85,48 +71,40 @@ b = answers['b']
 decimal_b = Decimal(b)
 
 
-c = answers['c']
-
-decimal_c = Decimal(c)
-
-
-d = answers['d']
-
-decimal_d = Decimal(d)
-
-
-e = answers['e']
-
-decimal_e = Decimal(e)
-
-
 if calcul == 'Une addition +':
     print("")
     print("")
     print(Fore.GREEN + Style.BRIGHT + "Résultat = " + Style.RESET_ALL)
     print("")
-    print(decimal_a + decimal_b + decimal_c + decimal_d + decimal_e)
+    print(decimal_a + decimal_b)
 else:
     if calcul == 'Une soustraction -':
         print("")
         print("")
         print(Fore.GREEN + Style.BRIGHT + "Résultat = " + Style.RESET_ALL)
         print("")
-        print(decimal_a - decimal_b - decimal_c - decimal_d - decimal_e)
+        print(decimal_a - decimal_b)
     else:
         if calcul == 'Une multiplication *':
             print("")
             print("")
             print(Fore.GREEN + Style.BRIGHT + "Résultat = " + Style.RESET_ALL)
             print("")
-            print(decimal_a * decimal_b * decimal_c * decimal_d * decimal_e)
+            print(decimal_a * decimal_b)
         else:
             if calcul == 'Une division /':
                 print("")
                 print("")
                 print(Fore.GREEN + Style.BRIGHT + "Résultat = " + Style.RESET_ALL)
                 print("")
-                print(decimal_a / decimal_b / decimal_c / decimal_d / decimal_e)
+                print(decimal_a / decimal_b)
+            else:
+                if calcul == 'Une racine carré √ (seul le premier nombre entré sera pris en compte)':
+                    print("")
+                    print("")
+                    print(Fore.GREEN + Style.BRIGHT + "Résultat = " + Style.RESET_ALL)
+                    print("")
+                    print(math.sqrt(decimal_a))
 
 
 # ------------------------------------------------------- Fin -------------------------------------------------------
