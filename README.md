@@ -23,6 +23,7 @@ Contents
 News
 ----------------
 
+- 24/03/2021 : _You can now do square root_
 - 23/03/2021 : _English version is here_
 - 22/03/2021 : _English Version is coming soon_
 - 22/03/2021 : _You can buy your pizza with Pizza Python !_
