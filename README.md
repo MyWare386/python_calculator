@@ -54,7 +54,7 @@ Choose a language : English or French.
 
 Download and unzip the <code>"python_calculator_exe.zip"</code>.
 
-Launch the "python_calculator.exe".
+Launch the <code>"python_calculator.exe"</code>.
 
 <br>
 
