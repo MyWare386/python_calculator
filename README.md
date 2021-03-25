@@ -52,7 +52,7 @@ You must install :
 
 Choose a language : English or French.
 
-Download and unzip the "python_calculator_exe.zip".
+Download and unzip the <code>"python_calculator_exe.zip"</code>.
 
 Launch the "python_calculator.exe".
 
