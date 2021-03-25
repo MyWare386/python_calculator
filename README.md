@@ -71,7 +71,7 @@ Write this line in the command prompt :
 
 OR
 
-Just launch the "python_calculator.py".
+Just launch the <code>"python_calculator.py"</code>.
 
 <br>
 
@@ -79,7 +79,7 @@ Just launch the "python_calculator.py".
 
 Some code editor let you execute python files directly.
 
-Or you can run the compiled pyhton file (.pyc).
+Or you can run the compiled pyhton file (<code>.pyc</code>).
 
 <br>
 
